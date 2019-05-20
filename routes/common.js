@@ -25,16 +25,25 @@ router.post('/upload', function (req, res) {
             res.json({
                 employment: [
                     {
-                        employerName: "Vasyan Industry",
+                        employerId: 366779,
+                        employerName: "EPAM Systems, Inc. [EPAM]",
                         title: "Director tvoegoo4ka",
-                        startDate: "2019-05-13T11:33:14.451Z",
-                        endDate: "2019-05-13T11:33:14.451Z"
+                        startDate: "2016-05-01T11:33:14.451Z",
+                        endDate: "2018-05-07T11:33:14.451Z"
                     },
                     {
-                        employerName: "105 Dvor Inc",
+                        employerId: 366779,
+                        employerName: "EPAM Systems, Inc. [EPAM]",
                         title: "Pacany Strelayt v YPOR",
-                        startDate: "2019-05-13T11:33:14.451Z",
-                        endDate: "2019-05-13T11:33:14.451Z"
+                        startDate: "2018-05-07T11:33:14.451Z",
+                        endDate: "2019-05-12T11:33:14.451Z"
+                    },
+                    {
+                        employerId: 366779,
+                        employerName: "EPAM Systems, Inc. [EPAM]",
+                        title: "Pacany Strelayt v YPOR",
+                        startDate: "2019-05-12T11:33:14.451Z",
+                        endDate: "2019-05-14T11:33:14.451Z"
                     }
                 ],
                 bio: "Lorem impsum epta"
